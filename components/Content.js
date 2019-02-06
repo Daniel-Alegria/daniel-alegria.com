@@ -5,16 +5,15 @@ import styled from 'styled-components'
   // - border-radius
   //TODO: (For all components)
   // - add grid area
-const MainHeader = styled.header`
-  height: 50px;
+const MainContent = styled.article`
   border: solid 3px #4b4b4b;
   border-radius: 5px;
 `;
 
-const Header = () => (
-  <MainHeader>
+const MainContent = () => (
+  <MainContent>
     Header
-  </MainHeader>
+  </MainContent>
 )
 
-export default Header
+export default MainContent
