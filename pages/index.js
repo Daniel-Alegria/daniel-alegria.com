@@ -1,5 +1,11 @@
+import styled from 'styled-components';
+
 export default () => (
   <div>
-      <h1>Index Page</h1>
+    <Title>Index Page</Title>
   </div>
-)
+);
+
+const Title = styled.h1`
+  color: red;
+`;
