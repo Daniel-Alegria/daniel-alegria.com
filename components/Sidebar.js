@@ -13,7 +13,7 @@ const MainSidebar = styled.article`
 const MainSidebar = () => (
   <MainSidebar>
     Header
-  </MainContent>
+  </MainSidebar>
 )
 
 export default MainSidebar
