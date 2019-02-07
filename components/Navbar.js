@@ -26,10 +26,11 @@ const links = [
 // - spacer-2
 // - add margin-right and margin-left
 const ClassicNavbar = styled.div`
+  grid-area: navbar;
+
   display: flex;
   align-items: center;
 
-  width: 100%;
   height: 100%;
 
   border: solid 3px #4b4b4b;

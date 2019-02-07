@@ -1,5 +1,161 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./Footer.js":
+/*!*******************!*\
+  !*** ./Footer.js ***!
+  \*******************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/mnt/c/Users/Ryan/Desktop/daniel-alegria.com/Footer.js";
+
+ //TODO: Add variables
+// - border
+// - border-radius
+//TODO: (For all components)
+// - add grid area
+
+var MainFooter = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].footer.withConfig({
+  displayName: "Footer__MainFooter",
+  componentId: "sc-1fxkiql-0"
+})(["border:solid 3px #4b4b4b;border-radius:5px;"]);
+
+var Footer = function Footer() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainFooter, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Footer");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./components/Advertisement.js":
+/*!*************************************!*\
+  !*** ./components/Advertisement.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/mnt/c/Users/Ryan/Desktop/daniel-alegria.com/components/Advertisement.js";
+
+ //TODO: Add variables
+// - border
+// - border-radius
+//TODO: (For all components)
+// - add grid area
+
+var MainAdvertisement = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "Advertisement__MainAdvertisement",
+  componentId: "fwc0de-0"
+})(["grid-area:advertisement;height:100%;border:solid 3px #4b4b4b;border-radius:5px;"]);
+
+var Advertisement = function Advertisement() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainAdvertisement, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Advertisement");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Advertisement);
+
+/***/ }),
+
+/***/ "./components/Content.js":
+/*!*******************************!*\
+  !*** ./components/Content.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/mnt/c/Users/Ryan/Desktop/daniel-alegria.com/components/Content.js";
+
+ //TODO: Add variables
+// - border
+// - border-radius
+//TODO: (For all components)
+// - add grid area
+
+var MainContent = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].article.withConfig({
+  displayName: "Content__MainContent",
+  componentId: "sc-18zusza-0"
+})(["grid-area:content;height:100%;border:solid 3px #4b4b4b;border-radius:5px;"]);
+
+var Content = function Content() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainContent, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Content");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Content);
+
+/***/ }),
+
+/***/ "./components/Header.js":
+/*!******************************!*\
+  !*** ./components/Header.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/mnt/c/Users/Ryan/Desktop/daniel-alegria.com/components/Header.js";
+
+ //TODO: Add variables
+// - border
+// - border-radius
+//TODO: (For all components)
+// - add grid area
+
+var MainHeader = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].header.withConfig({
+  displayName: "Header__MainHeader",
+  componentId: "sc-13fiemu-0"
+})(["grid-area:header;height:50px;border:solid 3px #4b4b4b;border-radius:5px;"]);
+
+var Header = function Header() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainHeader, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Header");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
 /***/ "./components/Navbar.js":
 /*!******************************!*\
   !*** ./components/Navbar.js ***!
@@ -51,7 +207,7 @@ var links = [{
 var ClassicNavbar = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "Navbar__ClassicNavbar",
   componentId: "sc-1wj62en-0"
-})(["display:flex;align-items:center;width:100%;height:100%;border:solid 3px #4b4b4b;border-radius:5px;background-color:#3498db;"]);
+})(["grid-area:navbar;display:flex;align-items:center;height:100%;border:solid 3px #4b4b4b;border-radius:5px;background-color:#3498db;"]);
 var NavWrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].nav.withConfig({
   displayName: "Navbar__NavWrapper",
   componentId: "sc-1wj62en-1"
@@ -73,51 +229,51 @@ var Navbar = function Navbar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ClassicNavbar, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 113
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 115
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Brand, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 116
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 117
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 118
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "https://i.imgur.com/6YnTsXz.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 119
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavItems, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 123
     },
     __self: this
   }, links.map(function (_ref) {
@@ -128,20 +284,20 @@ var Navbar = function Navbar() {
       key: key,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 124
+        lineNumber: 125
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: href,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 125
+        lineNumber: 126
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 126
+        lineNumber: 127
       },
       __self: this
     }, label)));
@@ -149,6 +305,177 @@ var Navbar = function Navbar() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./components/Sidebar.js":
+/*!*******************************!*\
+  !*** ./components/Sidebar.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/mnt/c/Users/Ryan/Desktop/daniel-alegria.com/components/Sidebar.js";
+
+ //TODO: Add variables
+// - border
+// - border-radius
+//TODO: (For all components)
+// - add grid area
+
+var MainSidebar = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].article.withConfig({
+  displayName: "Sidebar__MainSidebar",
+  componentId: "sc-1vjexo0-0"
+})(["grid-area:sidebar;height:100%;border:solid 3px #4b4b4b;border-radius:5px;"]);
+
+var Sidebar = function Sidebar() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainSidebar, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Sidebar");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Sidebar);
+
+/***/ }),
+
+/***/ "./layouts/HolyGrail.js":
+/*!******************************!*\
+  !*** ./layouts/HolyGrail.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var styled_css_grid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-css-grid */ "./node_modules/styled-css-grid/dist/styled-css-grid.esm.js");
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.js");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
+/* harmony import */ var _components_Sidebar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Sidebar */ "./components/Sidebar.js");
+/* harmony import */ var _components_Advertisement__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Advertisement */ "./components/Advertisement.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Footer */ "./Footer.js");
+var _jsxFileName = "/mnt/c/Users/Ryan/Desktop/daniel-alegria.com/layouts/HolyGrail.js";
+
+
+
+
+
+
+
+ // TODO: Don't forget to incorporate media queries.
+
+var HolyGrailLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "HolyGrail__HolyGrailLayout",
+  componentId: "sc-1qo5nwb-0"
+})(["height:100%;"]);
+
+var HolyGrail = function HolyGrail(_ref) {
+  var children = _ref.children;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HolyGrailLayout, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_css_grid__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+    style: {
+      height: "100%"
+    },
+    columns: "1fr 3fr 1fr",
+    rows: "50px 50px 1fr 50px",
+    areas: ["header         header      header", "navbar         navbar      navbar", "sidebar        content     advertisement", "sidebar        content     advertisement", "footer         footer      footer"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_css_grid__WEBPACK_IMPORTED_MODULE_2__["Cell"], {
+    area: "header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_css_grid__WEBPACK_IMPORTED_MODULE_2__["Cell"], {
+    area: "navbar",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_css_grid__WEBPACK_IMPORTED_MODULE_2__["Cell"], {
+    area: "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_css_grid__WEBPACK_IMPORTED_MODULE_2__["Cell"], {
+    area: "sidebar",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Sidebar__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_css_grid__WEBPACK_IMPORTED_MODULE_2__["Cell"], {
+    area: "advertisement",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Advertisement__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_css_grid__WEBPACK_IMPORTED_MODULE_2__["Cell"], {
+    area: "footer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (HolyGrail);
 
 /***/ }),
 
@@ -12288,6 +12615,23 @@ if ("development" !== 'production' && "development" !== 'test' && typeof window 
 
 /***/ }),
 
+/***/ "./node_modules/styled-css-grid/dist/styled-css-grid.esm.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/styled-css-grid/dist/styled-css-grid.esm.js ***!
+  \******************************************************************/
+/*! exports provided: Cell, Grid */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Cell", function() { return Cell; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return Grid; });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+function createCommonjsModule(e,n){return n={exports:{}},e(n,n.exports),n.exports}function makeEmptyFunction(e){return function(){return e}}function invariant(e,n,r,t,o,i,a,u){if(validateFormat(n),!e){var c;if(void 0===n)c=new Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else{var s=[r,t,o,i,a,u],p=0;(c=new Error(n.replace(/%s/g,function(){return s[p++]}))).name="Invariant Violation"}throw c.framesToPop=1,c}}function toObject(e){if(null===e||void 0===e)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(e)}function shouldUseNative(){try{if(!Object.assign)return!1;var e=new String("abc");if(e[5]="de","5"===Object.getOwnPropertyNames(e)[0])return!1;for(var n={},r=0;r<10;r++)n["_"+String.fromCharCode(r)]=r;if("0123456789"!==Object.getOwnPropertyNames(n).map(function(e){return n[e]}).join(""))return!1;var t={};return"abcdefghijklmnopqrst".split("").forEach(function(e){t[e]=e}),"abcdefghijklmnopqrst"===Object.keys(Object.assign({},t)).join("")}catch(e){return!1}}function checkPropTypes(e,n,r,t,o){if(true)for(var i in e)if(e.hasOwnProperty(i)){var a;try{invariant$1("function"==typeof e[i],"%s: %s type `%s` is invalid; it must be a function, usually from the `prop-types` package, but received `%s`.",t||"React class",r,i,_typeof(e[i])),a=e[i](n,i,t,r,null,ReactPropTypesSecret$1)}catch(e){a=e}if(warning$1(!a||a instanceof Error,"%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).",t||"React class",r,i,void 0===a?"undefined":_typeof(a)),a instanceof Error&&!(a.message in loggedTypeFailures)){loggedTypeFailures[a.message]=!0;var u=o?o():"";warning$1(!1,"Failed %s type: %s%s",r,a.message,null!=u?u:"")}}}var emptyFunction=function(){};emptyFunction.thatReturns=makeEmptyFunction,emptyFunction.thatReturnsFalse=makeEmptyFunction(!1),emptyFunction.thatReturnsTrue=makeEmptyFunction(!0),emptyFunction.thatReturnsNull=makeEmptyFunction(null),emptyFunction.thatReturnsThis=function(){return this},emptyFunction.thatReturnsArgument=function(e){return e};var emptyFunction_1=emptyFunction,validateFormat=function(e){};"production"!=="development"&&(validateFormat=function(e){if(void 0===e)throw new Error("invariant requires an error message argument")});var invariant_1=invariant,warning=emptyFunction_1;if(true){var printWarning=function(e){for(var n=arguments.length,r=Array(n>1?n-1:0),t=1;t<n;t++)r[t-1]=arguments[t];var o=0,i="Warning: "+e.replace(/%s/g,function(){return r[o++]});"undefined"!=typeof console&&console.error(i);try{throw new Error(i)}catch(e){}};warning=function(e,n){if(void 0===n)throw new Error("`warning(condition, format, ...args)` requires a warning message argument");if(0!==n.indexOf("Failed Composite propType: ")&&!e){for(var r=arguments.length,t=Array(r>2?r-2:0),o=2;o<r;o++)t[o-2]=arguments[o];printWarning.apply(void 0,[n].concat(t))}}}var warning_1=warning,getOwnPropertySymbols=Object.getOwnPropertySymbols,hasOwnProperty=Object.prototype.hasOwnProperty,propIsEnumerable=Object.prototype.propertyIsEnumerable,index$1=shouldUseNative()?Object.assign:function(e,n){for(var r,t,o=toObject(e),i=1;i<arguments.length;i++){r=Object(arguments[i]);for(var a in r)hasOwnProperty.call(r,a)&&(o[a]=r[a]);if(getOwnPropertySymbols){t=getOwnPropertySymbols(r);for(var u=0;u<t.length;u++)propIsEnumerable.call(r,t[u])&&(o[t[u]]=r[t[u]])}}return o},ReactPropTypesSecret="SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED",ReactPropTypesSecret_1=ReactPropTypesSecret,_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};if(true)var invariant$1=invariant_1,warning$1=warning_1,ReactPropTypesSecret$1=ReactPropTypesSecret_1,loggedTypeFailures={};var checkPropTypes_1=checkPropTypes,factoryWithTypeCheckers=function(e,n){function r(e){var n=e&&(d&&e[d]||e[y]);if("function"==typeof n)return n}function t(e,n){return e===n?0!==e||1/e==1/n:e!==e&&n!==n}function o(e){this.message=e,this.stack=""}function i(e){function r(r,a,u,c,s,p,f){if(c=c||m,p=p||u,f!==ReactPropTypesSecret_1)if(n)invariant_1(!1,"Calling PropTypes validators directly is not supported by the `prop-types` package. Use `PropTypes.checkPropTypes()` to call them. Read more at http://fb.me/use-check-prop-types");else if("production"!=="development"&&"undefined"!=typeof console){var l=c+":"+u;!t[l]&&i<3&&(warning_1(!1,"You are manually calling a React.PropTypes validation function for the `%s` prop on `%s`. This is deprecated and will throw in the standalone `prop-types` package. You may be seeing this warning due to a third-party PropTypes library. See https://fb.me/react-warning-dont-call-proptypes for details.",p,c),t[l]=!0,i++)}return null==a[u]?r?new o(null===a[u]?"The "+s+" `"+p+"` is marked as required in `"+c+"`, but its value is `null`.":"The "+s+" `"+p+"` is marked as required in `"+c+"`, but its value is `undefined`."):null:e(a,u,c,s,p)}if(true)var t={},i=0;var a=r.bind(null,!1);return a.isRequired=r.bind(null,!0),a}function a(e){return i(function(n,r,t,i,a,u){var c=n[r];return s(c)!==e?new o("Invalid "+i+" `"+a+"` of type `"+p(c)+"` supplied to `"+t+"`, expected `"+e+"`."):null})}function u(n){switch(void 0===n?"undefined":_typeof(n)){case"number":case"string":case"undefined":return!0;case"boolean":return!n;case"object":if(Array.isArray(n))return n.every(u);if(null===n||e(n))return!0;var t=r(n);if(!t)return!1;var o,i=t.call(n);if(t!==n.entries){for(;!(o=i.next()).done;)if(!u(o.value))return!1}else for(;!(o=i.next()).done;){var a=o.value;if(a&&!u(a[1]))return!1}return!0;default:return!1}}function c(e,n){return"symbol"===e||("Symbol"===n["@@toStringTag"]||"function"==typeof Symbol&&n instanceof Symbol)}function s(e){var n=void 0===e?"undefined":_typeof(e);return Array.isArray(e)?"array":e instanceof RegExp?"object":c(n,e)?"symbol":n}function p(e){if(void 0===e||null===e)return""+e;var n=s(e);if("object"===n){if(e instanceof Date)return"date";if(e instanceof RegExp)return"regexp"}return n}function f(e){var n=p(e);switch(n){case"array":case"object":return"an "+n;case"boolean":case"date":case"regexp":return"a "+n;default:return n}}function l(e){return e.constructor&&e.constructor.name?e.constructor.name:m}var d="function"==typeof Symbol&&Symbol.iterator,y="@@iterator",m="<<anonymous>>",v={array:a("array"),bool:a("boolean"),func:a("function"),number:a("number"),object:a("object"),string:a("string"),symbol:a("symbol"),any:i(emptyFunction_1.thatReturnsNull),arrayOf:function(e){return i(function(n,r,t,i,a){if("function"!=typeof e)return new o("Property `"+a+"` of component `"+t+"` has invalid PropType notation inside arrayOf.");var u=n[r];if(!Array.isArray(u))return new o("Invalid "+i+" `"+a+"` of type `"+s(u)+"` supplied to `"+t+"`, expected an array.");for(var c=0;c<u.length;c++){var p=e(u,c,t,i,a+"["+c+"]",ReactPropTypesSecret_1);if(p instanceof Error)return p}return null})},element:function(){return i(function(n,r,t,i,a){var u=n[r];return e(u)?null:new o("Invalid "+i+" `"+a+"` of type `"+s(u)+"` supplied to `"+t+"`, expected a single ReactElement.")})}(),instanceOf:function(e){return i(function(n,r,t,i,a){if(!(n[r]instanceof e)){var u=e.name||m;return new o("Invalid "+i+" `"+a+"` of type `"+l(n[r])+"` supplied to `"+t+"`, expected instance of `"+u+"`.")}return null})},node:function(){return i(function(e,n,r,t,i){return u(e[n])?null:new o("Invalid "+t+" `"+i+"` supplied to `"+r+"`, expected a ReactNode.")})}(),objectOf:function(e){return i(function(n,r,t,i,a){if("function"!=typeof e)return new o("Property `"+a+"` of component `"+t+"` has invalid PropType notation inside objectOf.");var u=n[r],c=s(u);if("object"!==c)return new o("Invalid "+i+" `"+a+"` of type `"+c+"` supplied to `"+t+"`, expected an object.");for(var p in u)if(u.hasOwnProperty(p)){var f=e(u,p,t,i,a+"."+p,ReactPropTypesSecret_1);if(f instanceof Error)return f}return null})},oneOf:function(e){return Array.isArray(e)?i(function(n,r,i,a,u){for(var c=n[r],s=0;s<e.length;s++)if(t(c,e[s]))return null;return new o("Invalid "+a+" `"+u+"` of value `"+c+"` supplied to `"+i+"`, expected one of "+JSON.stringify(e)+".")}):("production"!=="development"&&warning_1(!1,"Invalid argument supplied to oneOf, expected an instance of array."),emptyFunction_1.thatReturnsNull)},oneOfType:function(e){if(!Array.isArray(e))return"production"!=="development"&&warning_1(!1,"Invalid argument supplied to oneOfType, expected an instance of array."),emptyFunction_1.thatReturnsNull;for(var n=0;n<e.length;n++){var r=e[n];if("function"!=typeof r)return warning_1(!1,"Invalid argument supplied to oneOfType. Expected an array of check functions, but received %s at index %s.",f(r),n),emptyFunction_1.thatReturnsNull}return i(function(n,r,t,i,a){for(var u=0;u<e.length;u++)if(null==(0,e[u])(n,r,t,i,a,ReactPropTypesSecret_1))return null;return new o("Invalid "+i+" `"+a+"` supplied to `"+t+"`.")})},shape:function(e){return i(function(n,r,t,i,a){var u=n[r],c=s(u);if("object"!==c)return new o("Invalid "+i+" `"+a+"` of type `"+c+"` supplied to `"+t+"`, expected `object`.");for(var p in e){var f=e[p];if(f){var l=f(u,p,t,i,a+"."+p,ReactPropTypesSecret_1);if(l)return l}}return null})},exact:function(e){return i(function(n,r,t,i,a){var u=n[r],c=s(u);if("object"!==c)return new o("Invalid "+i+" `"+a+"` of type `"+c+"` supplied to `"+t+"`, expected `object`.");var p=index$1({},n[r],e);for(var f in p){var l=e[f];if(!l)return new o("Invalid "+i+" `"+a+"` key `"+f+"` supplied to `"+t+"`.\nBad object: "+JSON.stringify(n[r],null,"  ")+"\nValid keys: "+JSON.stringify(Object.keys(e),null,"  "));var d=l(u,f,t,i,a+"."+f,ReactPropTypesSecret_1);if(d)return d}return null})}};return o.prototype=Error.prototype,v.checkPropTypes=checkPropTypes_1,v.PropTypes=v,v},factoryWithThrowingShims=function(){function e(e,n,r,t,o,i){i!==ReactPropTypesSecret_1&&invariant_1(!1,"Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types")}function n(){return e}e.isRequired=e;var r={array:e,bool:e,func:e,number:e,object:e,string:e,symbol:e,any:e,arrayOf:n,element:e,instanceOf:n,node:e,objectOf:n,oneOf:n,oneOfType:n,shape:n,exact:n};return r.checkPropTypes=emptyFunction_1,r.PropTypes=r,r},index=createCommonjsModule(function(e){if(true){var n="function"==typeof Symbol&&Symbol.for&&Symbol.for("react.element")||60103,r=function(e){return"object"===(void 0===e?"undefined":_typeof(e))&&null!==e&&e.$$typeof===n};e.exports=factoryWithTypeCheckers(r,!0)}else {}}),Cell=styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({displayName:"Cell__Cell"})(["height:100%;min-width:0;grid-column-end:",";grid-row-end:",";",";",";",";",";",";"],function(e){var n=e.width;return"span "+(void 0===n?1:n)},function(e){var n=e.height;return"span "+(void 0===n?1:n)},function(e){var n=e.left;return n&&"grid-column-start: "+n},function(e){var n=e.top;return n&&"grid-row-start: "+n},function(e){return e.center&&"text-align: center"},function(e){var n=e.area;return n&&"grid-area: "+n},function(e){return e.middle&&"\n    display: inline-flex;\n    flex-flow: column wrap;\n    justify-content: center;\n    justify-self: stretch;\n  "});Cell.propTypes={className:index.string,width:index.number,height:index.number,top:index.oneOfType([index.number,index.string]),left:index.oneOfType([index.number,index.string]),middle:index.bool,center:index.bool,area:index.string};var autoRows=function(e){var n=e.minRowHeight;return"minmax("+(void 0===n?"20px":n)+", auto)"},frGetter=function(e){return"number"==typeof e?"repeat("+e+", 1fr)":e},gap=function(e){var n=e.gap,r=void 0===n?"8px":n;return r},flow=function(e){var n=e.flow,r=void 0===n?"row":n;return r},formatAreas=function(e){return e.map(function(e){return'"'+e+'"'}).join(" ")},Grid=styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({displayName:"Grid__Grid"})(["display:grid;height:",";grid-auto-flow:",";grid-auto-rows:",";",";grid-template-columns:",";grid-gap:",";",";",";",";",";",";"],function(e){var n=e.height;return void 0===n?"auto":n},flow,autoRows,function(e){var n=e.rows;return n&&"grid-template-rows: "+frGetter(n)},function(e){var n=e.columns;return frGetter(void 0===n?12:n)},gap,function(e){var n=e.columnGap;return n&&"column-gap: "+n},function(e){var n=e.rowGap;return n&&"row-gap: "+n},function(e){var n=e.areas;return n&&"grid-template-areas: "+formatAreas(n)},function(e){var n=e.justifyContent;return n&&"justify-content: "+n},function(e){var n=e.alignContent;return n&&"align-content: "+n});Grid.propTypes={className:index.string,columns:index.oneOfType([index.string,index.number]),gap:index.string,columnGap:index.string,rowGap:index.string,height:index.string,minRowHeight:index.string,flow:index.string,rows:index.oneOfType([index.string,index.number]),areas:index.arrayOf(index.string),justifyContent:index.string,alignContent:index.string};
+
+
+/***/ }),
+
 /***/ "./node_modules/stylis-rule-sheet/index.js":
 /*!*************************************************!*\
   !*** ./node_modules/stylis-rule-sheet/index.js ***!
@@ -13220,37 +13564,27 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.js");
+/* harmony import */ var _layouts_HolyGrail__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layouts/HolyGrail */ "./layouts/HolyGrail.js");
+/* harmony import */ var _components_Content__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Content */ "./components/Content.js");
 var _jsxFileName = "/mnt/c/Users/Ryan/Desktop/daniel-alegria.com/pages/index.js";
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_HolyGrail__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Content__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, "Index Page"));
+  }));
 });
-var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
-  displayName: "pages__Title",
-  componentId: "sc-1cvwks4-0"
-})(["color:red;"]);
     (function (Component, route) {
       if(!Component) return
       if (false) {}

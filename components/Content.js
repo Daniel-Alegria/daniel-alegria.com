@@ -6,14 +6,18 @@ import styled from 'styled-components'
   //TODO: (For all components)
   // - add grid area
 const MainContent = styled.article`
+  grid-area: content;
+  
+  height: 100%;
+
   border: solid 3px #4b4b4b;
   border-radius: 5px;
 `;
 
-const MainContent = () => (
+const Content = () => (
   <MainContent>
-    Header
+    Content
   </MainContent>
 )
 
-export default MainContent
+export default Content

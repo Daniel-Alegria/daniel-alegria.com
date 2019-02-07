@@ -24,10 +24,12 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           {/* Step 5: Output the styles in the head  */}
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           {this.props.styleTags}
         </Head>
         <body>
-          <Main />
+          <Main style={{height: "100%" }}/>
           <NextScript />
         </body>
       </html>

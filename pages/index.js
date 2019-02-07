@@ -1,13 +1,8 @@
-import styled from 'styled-components';
-import Navbar from '../components/Navbar'
+import HolyGrail from '../layouts/HolyGrail';
+import Content from '../components/Content';
 
 export default () => (
-  <div>
-    <Navbar />
-    <Title>Index Page</Title>
-  </div>
+  <HolyGrail>
+    <Content></Content>
+  </HolyGrail>
 );
-
-const Title = styled.h1`
-  color: red;
-`;

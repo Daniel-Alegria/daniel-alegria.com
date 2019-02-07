@@ -6,14 +6,18 @@ import styled from 'styled-components'
   //TODO: (For all components)
   // - add grid area
 const MainSidebar = styled.article`
+  grid-area: sidebar;
+
+  height: 100%;
+
   border: solid 3px #4b4b4b;
   border-radius: 5px;
 `;
 
-const MainSidebar = () => (
+const Sidebar = () => (
   <MainSidebar>
-    Header
+    Sidebar
   </MainSidebar>
 )
 
-export default MainSidebar
+export default Sidebar
