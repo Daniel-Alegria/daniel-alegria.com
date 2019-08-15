@@ -29,7 +29,7 @@ export default class MyDocument extends Document {
           {this.props.styleTags}
         </Head>
         <body>
-          <Main style={{height: "100%" }}/>
+          <Main style={{ height: "100%" }} />
           <NextScript />
         </body>
       </html>

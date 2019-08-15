@@ -1,33 +1,23 @@
-import Link from 'next/link'
-import styled from 'styled-components'
+import Link from "next/link";
+import styled from "styled-components";
 
 // TODO: REMEMBER TO REPLACE VARIABLES WITH UTILS
 
 // nav links
 const links = [
-  { href: '#', label: 'Item 1' },
-  { href: '#', label: 'Item 2' },
-  { href: '#', label: 'Item 3' },
-  { href: '#', label: 'Item 4' },
-  { href: '#', label: 'Item 5' }
-]
-.map(link => {
-  link.key = `nav-link-${link.href}-${link.label}`
-  return link
-})
+  { href: "/portfolio", label: "Portfolio" },
+  { href: "/hireMe", label: "Hire Me!" },
+  { href: "/about", label: "About" },
+  { href: "/blog", label: "Blog" }
+].map(link => {
+  link.key = `nav-link-${link.href}-${link.label}`;
+  return link;
+});
 
-// variables to add:
-// - border
-// - border-radius
-// - light-blue
-// - dark-blue
-// - light-blue
-// - spacer-1
-// - spacer-2
-// - add margin-right and margin-left
 const ClassicNavbar = styled.div`
   grid-area: navbar;
 
+  position: sticky;
   display: flex;
   align-items: center;
 
@@ -35,7 +25,6 @@ const ClassicNavbar = styled.div`
 
   border: solid 3px #4b4b4b;
   border-radius: 5px;
-  background-color: #3498db;
 `;
 
 const NavWrapper = styled.nav`
@@ -51,8 +40,8 @@ const NavContainer = styled.div`
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 50px;
+  margin-right: 50px;
 `;
 
 const Brand = styled.div`
@@ -61,27 +50,25 @@ const Brand = styled.div`
   height: 100%;
   a {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 0;
     width: 150px;
     border-radius: 5px;
     &:hover {
-      background-color: #2980b9;
       cursor: pointer;
-      color: #fafafa;
     }
     img {
       height: auto;
       width: 150px;
     }
+  }
 `;
 
 const NavItems = styled.ul`
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
   padding-left: 0;
@@ -104,9 +91,11 @@ const NavItems = styled.ul`
 
     transition: all 250ms;
     &:hover {
-      background-color: #2980b9;
+      background-color: #aaaaaa;
       cursor: pointer;
       color: #fafafa;
+    }
+  }
 `;
 
 const Navbar = () => (
@@ -115,23 +104,21 @@ const Navbar = () => (
       <NavContainer>
         <Brand>
           <Link href="/">
-            <a>
-              <img src="https://i.imgur.com/6YnTsXz.png" />
-            </a>
+            <a>Daniel Alegria</a>
           </Link>
         </Brand>
         <NavItems>
-        {links.map(({ key, href, label }) => (
-          <li key={key}>
-            <Link href={href}>
-              <a>{label}</a>
-            </Link>
-          </li>
-        ))}
+          {links.map(({ key, href, label }) => (
+            <li key={key}>
+              <Link href={href}>
+                <a>{label}</a>
+              </Link>
+            </li>
+          ))}
         </NavItems>
       </NavContainer>
     </NavWrapper>
   </ClassicNavbar>
-)
+);
 
-export default Navbar
+export default Navbar;

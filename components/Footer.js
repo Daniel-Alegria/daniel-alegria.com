@@ -8,7 +8,7 @@ import styled from 'styled-components'
 const MainFooter = styled.footer`
   grid-area: footer;
 
-  height: 100px;
+  height: 50px;
 
   border: solid 3px #4b4b4b;
   border-radius: 5px;
@@ -16,7 +16,7 @@ const MainFooter = styled.footer`
 
 const Footer = () => (
   <MainFooter>
-    Footer poop
+    Footer
   </MainFooter>
 )
 
